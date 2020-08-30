@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labyrinth</title>
+</head>
+<body>
+Wpisz kierunek, w którym będziesz iść:
+
+<input type="text" id="step" value="right"/>
+<input type="button" onclick="takeStep()" value="Take a step"/> <br />
+
+<textarea id="area" rows="4" cols = "15"> </textarea> <br/>
+<canvas height="60" width="60" id="labyrinth"/>
+<script src="js/labyrinth-logic.js"></script>
+<script src="js/display.js"></script>
+</body>
+</html>
